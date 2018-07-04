@@ -2,10 +2,10 @@
 /**
  * Write your transction processor functions here
  */
-var NS = 'org.salim.net';
+var NS = 'org.salim';
 /**
  * createProjectPledge
- * @param {org.salim.net.CreateProjectPledge} createProjectPledge
+ * @param {org.salim.CreateProjectPledge} createProjectPledge
  * @transaction
  */
 function createProjectPledge(txParams) {
@@ -43,7 +43,7 @@ function createProjectPledge(txParams) {
 }
 /**
  * SendPledgeToGlobalCitizen
- * @param {org.salim.net.SendPledgeToGlobalCitizen} sendPledgeToGlobalCitizen
+ * @param {org.salim.SendPledgeToGlobalCitizen} sendPledgeToGlobalCitizen
  * @transaction
  */
 function sendPledgeToGlobalCitizen(txParams) {
@@ -63,7 +63,7 @@ function sendPledgeToGlobalCitizen(txParams) {
 }
 /**
  * SendPledgeToGovOrg
- * @param {org.salim.net.SendPledgeToGovOrg} sendPledgeToGovOrg
+ * @param {org.salim.SendPledgeToGovOrg} sendPledgeToGovOrg
  * @transaction
  */
 function sendPledgeToGovOrg(txParams) {
@@ -85,7 +85,7 @@ function sendPledgeToGovOrg(txParams) {
 }
 /**
  * UpdatePledge
- * @param {org.salim.net.UpdatePledge} updatePledge
+ * @param {org.salim.UpdatePledge} updatePledge
  * @transaction
  */
 function updatePledge(txParams) {
@@ -137,7 +137,7 @@ function updatePledge(txParams) {
 }
 /**
  * TransferFunds
- * @param {org.salim.net.TransferFunds} transferFunds
+ * @param {org.salim.TransferFunds} transferFunds
  * @transaction
  */
 function transferFunds(txParams) {

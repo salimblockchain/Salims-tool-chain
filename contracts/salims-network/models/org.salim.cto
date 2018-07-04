@@ -2,7 +2,7 @@
  * Write your model definitions here
  */
 
-namespace org.salim.net
+namespace org.salim
 
 enum Status{
   o INITIALSTATE
